@@ -27,6 +27,9 @@ class CarsIndex extends Component {
     return (
       <div>
         {this.renderCars()}
+        <Link className="btn btn-primary btn-cta" to="/cars/new">
+          Add a Car Mr Bond
+        </Link>
       </div>
     );
   }
